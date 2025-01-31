@@ -1,0 +1,379 @@
+[0m20:20:17.804909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x706078576a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7060785770d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7060785771d0>]}
+
+
+============================== 20:20:17.808835 | 3816b923-1380-466d-b00a-89f0129002da ==============================
+[0m20:20:17.808835 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:20:17.809566 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init medical_data_project', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:20:17.820907 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/hunegna/.dbt')}
+[0m20:20:17.821640 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:20:17.824712 [debug] [MainThread]: Starter project path: /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/env-7/lib/python3.11/site-packages/dbt/include/starter_project
+[0m20:20:17.828000 [info ] [MainThread]: 
+Your new dbt project "medical_data_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:20:17.829016 [info ] [MainThread]: Setting up your profile.
+[0m20:31:37.924988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b1819ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b1819390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b246b550>]}
+
+
+============================== 20:31:37.928283 | d609df27-af34-4f2f-b29a-eebf28395b54 ==============================
+[0m20:31:37.928283 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:31:37.929210 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init medical_data_project', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:31:37.944155 [info ] [MainThread]: A project called medical_data_project already exists here.
+[0m20:31:37.946878 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.08090141, "process_in_blocks": "112", "process_kernel_time": 0.155626, "process_mem_max_rss": "90696", "process_out_blocks": "8", "process_user_time": 1.485437}
+[0m20:31:37.947563 [debug] [MainThread]: Command `dbt init` succeeded at 20:31:37.947399 after 0.08 seconds
+[0m20:31:37.948113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b181a190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b52165d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7408b1d235d0>]}
+[0m20:31:37.948618 [debug] [MainThread]: Flushing usage events
+[0m20:31:39.187524 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:41:14.099657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33753a4a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3374612dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33749d1590>]}
+
+
+============================== 20:41:14.103343 | a1a408e2-43a1-42da-bab8-5d2aef823168 ==============================
+[0m20:41:14.103343 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:41:14.104129 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:41:14.104825 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:41:14.105977 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06837801, "process_in_blocks": "0", "process_kernel_time": 0.213591, "process_mem_max_rss": "90296", "process_out_blocks": "8", "process_user_time": 1.590956}
+[0m20:41:14.106642 [debug] [MainThread]: Command `dbt run` failed at 20:41:14.106472 after 0.07 seconds
+[0m20:41:14.107214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d337445d850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3378016750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d33780bd110>]}
+[0m20:41:14.107761 [debug] [MainThread]: Flushing usage events
+[0m20:41:15.119240 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:43:19.519085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bd9899d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bd989aa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bd989a710>]}
+
+
+============================== 20:43:19.522384 | 7f11ad47-3b02-4c70-9ad1-96db56c0d5f6 ==============================
+[0m20:43:19.522384 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:43:19.523177 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:43:19.526043 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:43:19.527208 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06916577, "process_in_blocks": "0", "process_kernel_time": 0.201614, "process_mem_max_rss": "89884", "process_out_blocks": "16", "process_user_time": 1.599941}
+[0m20:43:19.527839 [debug] [MainThread]: Command `dbt run` failed at 20:43:19.527666 after 0.07 seconds
+[0m20:43:19.528832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bd971a350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bdd216750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787bd989bf90>]}
+[0m20:43:19.529606 [debug] [MainThread]: Flushing usage events
+[0m20:43:20.561302 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:43:48.309622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0feeca3790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0feecfbfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0feeca3250>]}
+
+
+============================== 20:43:48.313580 | 6330cabc-4d86-4df5-ac22-dd0b0f1304fe ==============================
+[0m20:43:48.313580 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:43:48.314474 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:43:48.317363 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:43:48.318653 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.08155181, "process_in_blocks": "0", "process_kernel_time": 0.221907, "process_mem_max_rss": "90112", "process_out_blocks": "8", "process_user_time": 1.625325}
+[0m20:43:48.319454 [debug] [MainThread]: Command `dbt run` failed at 20:43:48.319223 after 0.08 seconds
+[0m20:43:48.320594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0feeca2c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0ff271a750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d0feeca7e10>]}
+[0m20:43:48.321809 [debug] [MainThread]: Flushing usage events
+[0m20:43:48.328824 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:45:13.335664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90cb33ae90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90cc80ed90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90cb398b90>]}
+
+
+============================== 20:45:13.339025 | 9d6e8988-9a04-46e9-8d38-49260f723263 ==============================
+[0m20:45:13.339025 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:45:13.339792 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'fail_fast': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:45:13.350030 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:45:13.351893 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.07676679, "process_in_blocks": "0", "process_kernel_time": 0.199579, "process_mem_max_rss": "90380", "process_out_blocks": "16", "process_user_time": 1.483877}
+[0m20:45:13.352703 [debug] [MainThread]: Command `dbt run` failed at 20:45:13.352513 after 0.08 seconds
+[0m20:45:13.353381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90ced16550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90cb1960d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d90cb1959d0>]}
+[0m20:45:13.353938 [debug] [MainThread]: Flushing usage events
+[0m20:45:13.358095 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:51:58.767431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c56344a2e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c56344a2f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c56344fbb10>]}
+
+
+============================== 20:51:58.770865 | b84c4f11-cb5f-4264-a1eb-25d46856174b ==============================
+[0m20:51:58.770865 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:51:58.771672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:51:58.782246 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:51:58.783984 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.0776685, "process_in_blocks": "0", "process_kernel_time": 0.224685, "process_mem_max_rss": "90256", "process_out_blocks": "8", "process_user_time": 2.01718}
+[0m20:51:58.784801 [debug] [MainThread]: Command `dbt run` failed at 20:51:58.784596 after 0.08 seconds
+[0m20:51:58.785500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c5637f1a5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c5634500a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c5634501510>]}
+[0m20:51:58.786306 [debug] [MainThread]: Flushing usage events
+[0m20:52:01.095785 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:56:40.913950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082cbff410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082cc4bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082cff1590>]}
+
+
+============================== 20:56:40.918056 | 76935647-a1c3-47bc-90f6-4c3c2dc55a41 ==============================
+[0m20:56:40.918056 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:56:40.919061 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'debug': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:56:41.116113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082cff13d0>]}
+[0m20:56:41.185881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082ee52790>]}
+[0m20:56:41.186830 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:56:41.298564 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:56:41.299395 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:56:41.299918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082c30fd50>]}
+[0m20:56:42.071039 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_data_project.example
+[0m20:56:42.082136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082c3f1cd0>]}
+[0m20:56:42.125349 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m20:56:42.127957 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m20:56:42.143221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082bf58050>]}
+[0m20:56:42.143915 [info ] [MainThread]: Found 431 macros
+[0m20:56:42.144415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '76935647-a1c3-47bc-90f6-4c3c2dc55a41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082bf82d50>]}
+[0m20:56:42.147616 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:56:42.149955 [debug] [MainThread]: Command end result
+[0m20:56:42.190550 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m20:56:42.192156 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m20:56:42.195561 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/run_results.json
+[0m20:56:42.196635 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.3920447, "process_in_blocks": "1464", "process_kernel_time": 0.242659, "process_mem_max_rss": "101796", "process_out_blocks": "2488", "process_user_time": 2.688229}
+[0m20:56:42.197234 [debug] [MainThread]: Command `dbt run` succeeded at 20:56:42.197102 after 1.39 seconds
+[0m20:56:42.197717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0830616590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082c386550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b082ca7e390>]}
+[0m20:56:42.198260 [debug] [MainThread]: Flushing usage events
+[0m20:56:43.304708 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:06:32.848631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dc346e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dc19b690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dc7def50>]}
+
+
+============================== 21:06:32.859072 | cbe45a51-98ec-404f-a3ac-2d2154436701 ==============================
+[0m21:06:32.859072 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:06:32.861657 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m21:06:33.221621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cbe45a51-98ec-404f-a3ac-2d2154436701', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dbfad3d0>]}
+[0m21:06:33.289291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cbe45a51-98ec-404f-a3ac-2d2154436701', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dd0d4a90>]}
+[0m21:06:33.290316 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:06:33.407775 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m21:06:33.469773 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:06:33.470303 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:06:33.471043 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_data_project.example
+[0m21:06:33.482466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cbe45a51-98ec-404f-a3ac-2d2154436701', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2db952990>]}
+[0m21:06:33.529940 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:06:33.532642 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:06:33.559063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cbe45a51-98ec-404f-a3ac-2d2154436701', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2db4f5d10>]}
+[0m21:06:33.559683 [info ] [MainThread]: Found 431 macros
+[0m21:06:33.560191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cbe45a51-98ec-404f-a3ac-2d2154436701', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dbb2db90>]}
+[0m21:06:33.566804 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:06:33.570470 [debug] [MainThread]: Command end result
+[0m21:06:33.601908 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:06:33.603739 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:06:33.607927 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/run_results.json
+[0m21:06:33.609060 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.87148786, "process_in_blocks": "0", "process_kernel_time": 0.244595, "process_mem_max_rss": "104252", "process_out_blocks": "1656", "process_user_time": 2.192371}
+[0m21:06:33.609655 [debug] [MainThread]: Command `dbt test` succeeded at 21:06:33.609523 after 0.87 seconds
+[0m21:06:33.610149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dc1c7c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dfd1a5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79e2dc44d050>]}
+[0m21:06:33.610665 [debug] [MainThread]: Flushing usage events
+[0m21:06:34.789167 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:06:59.457288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed8e4def90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed8e523810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed8f1ba150>]}
+
+
+============================== 21:06:59.460708 | 4913b0fe-c0cb-403e-b8c8-7308c9d2bafd ==============================
+[0m21:06:59.460708 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:06:59.461685 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/hunegna/.dbt', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:06:59.479990 [info ] [MainThread]: dbt version: 1.9.2
+[0m21:06:59.480698 [info ] [MainThread]: python version: 3.11.7
+[0m21:06:59.481357 [info ] [MainThread]: python path: /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/env-7/bin/python3
+[0m21:06:59.481887 [info ] [MainThread]: os info: Linux-6.8.0-51-generic-x86_64-with-glibc2.39
+[0m21:06:59.557045 [info ] [MainThread]: Using profiles dir at /home/hunegna/.dbt
+[0m21:06:59.557630 [info ] [MainThread]: Using profiles.yml file at /home/hunegna/.dbt/profiles.yml
+[0m21:06:59.558274 [info ] [MainThread]: Using dbt_project.yml file at /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/dbt_project.yml
+[0m21:06:59.559409 [info ] [MainThread]: adapter type: postgres
+[0m21:06:59.563258 [info ] [MainThread]: adapter version: 1.9.0
+[0m21:06:59.683467 [info ] [MainThread]: Configuration:
+[0m21:06:59.684035 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:06:59.684681 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:06:59.685348 [info ] [MainThread]: Required dependencies:
+[0m21:06:59.687426 [debug] [MainThread]: Executing "git --help"
+[0m21:06:59.699754 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:06:59.700812 [debug] [MainThread]: STDERR: "b''"
+[0m21:06:59.701572 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:06:59.702436 [info ] [MainThread]: Connection:
+[0m21:06:59.703318 [info ] [MainThread]:   host: localhost
+[0m21:06:59.705015 [info ] [MainThread]:   port: 5432
+[0m21:06:59.706779 [info ] [MainThread]:   user: hunegna_1
+[0m21:06:59.707714 [info ] [MainThread]:   database: medical_data
+[0m21:06:59.708516 [info ] [MainThread]:   schema: public
+[0m21:06:59.709280 [info ] [MainThread]:   connect_timeout: 10
+[0m21:06:59.710048 [info ] [MainThread]:   role: None
+[0m21:06:59.710865 [info ] [MainThread]:   search_path: None
+[0m21:06:59.711562 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:06:59.712681 [info ] [MainThread]:   sslmode: None
+[0m21:06:59.713545 [info ] [MainThread]:   sslcert: None
+[0m21:06:59.714064 [info ] [MainThread]:   sslkey: None
+[0m21:06:59.714539 [info ] [MainThread]:   sslrootcert: None
+[0m21:06:59.715037 [info ] [MainThread]:   application_name: dbt
+[0m21:06:59.715507 [info ] [MainThread]:   retries: 1
+[0m21:06:59.716111 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:06:59.823327 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:06:59.859267 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:06:59.859724 [debug] [MainThread]: On debug: select 1 as id
+[0m21:06:59.860211 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:06:59.873303 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "medical_data" does not exist
+
+[0m21:06:59.885304 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m21:06:59.886249 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m21:06:59.887148 [debug] [MainThread]: On debug: No close available on handle
+[0m21:06:59.888255 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:06:59.888761 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:06:59.889558 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "medical_data" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:06:59.892255 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.49818808, "process_in_blocks": "424", "process_kernel_time": 0.240758, "process_mem_max_rss": "105584", "process_out_blocks": "16", "process_user_time": 1.857134}
+[0m21:06:59.893864 [debug] [MainThread]: Command `dbt debug` failed at 21:06:59.893450 after 0.50 seconds
+[0m21:06:59.895113 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:06:59.896169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed8e357710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed91f1a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71ed91fc0f10>]}
+[0m21:06:59.898608 [debug] [MainThread]: Flushing usage events
+[0m21:07:00.943025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:12:03.840530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c07bb6a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c07bb62d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c07bb6790>]}
+
+
+============================== 21:12:03.844006 | e0c5496a-59bb-4ae0-8b53-2844219de09f ==============================
+[0m21:12:03.844006 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:12:03.844968 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'debug': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:12:03.859450 [info ] [MainThread]: dbt version: 1.9.2
+[0m21:12:03.860032 [info ] [MainThread]: python version: 3.11.7
+[0m21:12:03.860501 [info ] [MainThread]: python path: /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/env-7/bin/python3
+[0m21:12:03.861037 [info ] [MainThread]: os info: Linux-6.8.0-51-generic-x86_64-with-glibc2.39
+[0m21:12:03.932666 [info ] [MainThread]: Using profiles dir at /home/hunegna/.dbt
+[0m21:12:03.933318 [info ] [MainThread]: Using profiles.yml file at /home/hunegna/.dbt/profiles.yml
+[0m21:12:03.933951 [info ] [MainThread]: Using dbt_project.yml file at /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/dbt_project.yml
+[0m21:12:03.934853 [info ] [MainThread]: adapter type: postgres
+[0m21:12:03.935386 [info ] [MainThread]: adapter version: 1.9.0
+[0m21:12:04.053265 [info ] [MainThread]: Configuration:
+[0m21:12:04.053808 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:12:04.054355 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:12:04.054858 [info ] [MainThread]: Required dependencies:
+[0m21:12:04.055535 [debug] [MainThread]: Executing "git --help"
+[0m21:12:04.063299 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:12:04.064588 [debug] [MainThread]: STDERR: "b''"
+[0m21:12:04.067682 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:12:04.069806 [info ] [MainThread]: Connection:
+[0m21:12:04.070498 [info ] [MainThread]:   host: localhost
+[0m21:12:04.071353 [info ] [MainThread]:   port: 5432
+[0m21:12:04.071866 [info ] [MainThread]:   user: hunegna_1
+[0m21:12:04.072368 [info ] [MainThread]:   database: medical_data
+[0m21:12:04.073076 [info ] [MainThread]:   schema: public
+[0m21:12:04.073525 [info ] [MainThread]:   connect_timeout: 10
+[0m21:12:04.074068 [info ] [MainThread]:   role: None
+[0m21:12:04.074624 [info ] [MainThread]:   search_path: None
+[0m21:12:04.075199 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:12:04.075618 [info ] [MainThread]:   sslmode: None
+[0m21:12:04.076083 [info ] [MainThread]:   sslcert: None
+[0m21:12:04.076505 [info ] [MainThread]:   sslkey: None
+[0m21:12:04.077100 [info ] [MainThread]:   sslrootcert: None
+[0m21:12:04.077702 [info ] [MainThread]:   application_name: dbt
+[0m21:12:04.078225 [info ] [MainThread]:   retries: 1
+[0m21:12:04.078833 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:12:04.229725 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:12:04.271448 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:12:04.271975 [debug] [MainThread]: On debug: select 1 as id
+[0m21:12:04.272397 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:12:04.288063 [debug] [MainThread]: SQL status: SELECT 1 in 0.016 seconds
+[0m21:12:04.289330 [debug] [MainThread]: On debug: Close
+[0m21:12:04.289952 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:12:04.290769 [info ] [MainThread]: [32mAll checks passed![0m
+[0m21:12:04.292800 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.5115004, "process_in_blocks": "0", "process_kernel_time": 0.213681, "process_mem_max_rss": "105572", "process_out_blocks": "24", "process_user_time": 1.849243}
+[0m21:12:04.296330 [debug] [MainThread]: Command `dbt debug` succeeded at 21:12:04.295179 after 0.51 seconds
+[0m21:12:04.298560 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:12:04.299707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c0b516590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c072a57d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c07fa5290>]}
+[0m21:12:04.300738 [debug] [MainThread]: Flushing usage events
+[0m21:12:05.557622 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:12:11.744730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3b272a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3b0cb750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3b272f10>]}
+
+
+============================== 21:12:11.748073 | 6e11f4b3-e926-4805-9e85-74f34671eee8 ==============================
+[0m21:12:11.748073 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:12:11.748817 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/hunegna/.dbt', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:12:11.930013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6e11f4b3-e926-4805-9e85-74f34671eee8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3ab514d0>]}
+[0m21:12:11.996082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6e11f4b3-e926-4805-9e85-74f34671eee8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3d458e90>]}
+[0m21:12:11.996999 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:12:12.103176 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m21:12:12.162668 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:12:12.163142 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:12:12.163853 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_data_project.example
+[0m21:12:12.175625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6e11f4b3-e926-4805-9e85-74f34671eee8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3a58a910>]}
+[0m21:12:12.225484 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:12:12.228076 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:12:12.240217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6e11f4b3-e926-4805-9e85-74f34671eee8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3a9f5490>]}
+[0m21:12:12.240870 [info ] [MainThread]: Found 431 macros
+[0m21:12:12.241468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6e11f4b3-e926-4805-9e85-74f34671eee8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3a9c5310>]}
+[0m21:12:12.243554 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:12:12.251206 [debug] [MainThread]: Command end result
+[0m21:12:12.279269 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:12:12.281256 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:12:12.284803 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/run_results.json
+[0m21:12:12.285903 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.60029536, "process_in_blocks": "0", "process_kernel_time": 0.239707, "process_mem_max_rss": "101760", "process_out_blocks": "1656", "process_user_time": 1.898685}
+[0m21:12:12.286508 [debug] [MainThread]: Command `dbt run` succeeded at 21:12:12.286369 after 0.60 seconds
+[0m21:12:12.286998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3ec16590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3b0f3d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9c3b0f3fd0>]}
+[0m21:12:12.287523 [debug] [MainThread]: Flushing usage events
+[0m21:12:13.676210 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:24:19.728593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c98275155d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c98276124d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9827516850>]}
+
+
+============================== 21:24:19.732052 | ccc331ff-3d57-429f-ad76-43db2316b45d ==============================
+[0m21:24:19.732052 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:24:19.733185 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'profiles_dir': '/home/hunegna/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:24:19.880295 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('medical_data_project' was unexpected)
+
+Error encountered in /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/dbt_project.yml
+[0m21:24:19.881839 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.21371172, "process_in_blocks": "2184", "process_kernel_time": 0.202818, "process_mem_max_rss": "95576", "process_out_blocks": "8", "process_user_time": 1.638535}
+[0m21:24:19.882909 [debug] [MainThread]: Command `dbt run` failed at 21:24:19.882678 after 0.22 seconds
+[0m21:24:19.883528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c982af16550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c982afbd090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9827392710>]}
+[0m21:24:19.887398 [debug] [MainThread]: Flushing usage events
+[0m21:24:21.200874 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:28:59.167986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06810f3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06810ec90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06810ef90>]}
+
+
+============================== 21:28:59.171458 | d663306f-dd1f-4853-8534-6f1c6fdedcb3 ==============================
+[0m21:28:59.171458 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:28:59.172498 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/logs', 'version_check': 'True', 'profiles_dir': '/home/hunegna/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:28:59.366062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c067dce750>]}
+[0m21:28:59.432861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06865d290>]}
+[0m21:28:59.433768 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:28:59.562478 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m21:28:59.606384 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:28:59.607051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c068ed7090>]}
+[0m21:29:00.365203 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_data_project.example
+[0m21:29:00.377331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c0678aab50>]}
+[0m21:29:00.423750 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:29:00.426563 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:29:00.439208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c0677537d0>]}
+[0m21:29:00.440422 [info ] [MainThread]: Found 431 macros
+[0m21:29:00.441437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd663306f-dd1f-4853-8534-6f1c6fdedcb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c0678c53d0>]}
+[0m21:29:00.448616 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:29:00.452727 [debug] [MainThread]: Command end result
+[0m21:29:00.488184 [debug] [MainThread]: Wrote artifact WritableManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/manifest.json
+[0m21:29:00.490258 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/semantic_manifest.json
+[0m21:29:00.494390 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/hunegna/10x/10x_projects/telegram-medical-business-scraper/target/run_results.json
+[0m21:29:00.495570 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.3888012, "process_in_blocks": "16", "process_kernel_time": 0.241876, "process_mem_max_rss": "102412", "process_out_blocks": "2480", "process_user_time": 2.782581}
+[0m21:29:00.496243 [debug] [MainThread]: Command `dbt run` succeeded at 21:29:00.496107 after 1.39 seconds
+[0m21:29:00.496753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c067f4ba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06bb1a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74c06bbc05d0>]}
+[0m21:29:00.497331 [debug] [MainThread]: Flushing usage events
+[0m21:29:01.680398 [debug] [MainThread]: An error was encountered while trying to flush usage events
