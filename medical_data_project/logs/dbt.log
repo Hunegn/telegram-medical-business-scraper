@@ -1,0 +1,42 @@
+[0m20:39:41.661359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79327ea7eed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79327ee71490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79327f752650>]}
+
+
+============================== 20:39:41.664993 | ce2637f3-1cf9-4917-bced-8f84db994ce5 ==============================
+[0m20:39:41.664993 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:39:41.665805 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/medical_data_project/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:39:41.668606 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:39:41.669820 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.07008595, "process_in_blocks": "0", "process_kernel_time": 0.204743, "process_mem_max_rss": "90408", "process_out_blocks": "16", "process_user_time": 1.622964}
+[0m20:39:41.670515 [debug] [MainThread]: Command `dbt run` failed at 20:39:41.670321 after 0.07 seconds
+[0m20:39:41.671429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79327ea7ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79327e8bad90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7932824bd150>]}
+[0m20:39:41.672267 [debug] [MainThread]: Flushing usage events
+[0m20:39:42.620160 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:12.814371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a937e020e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a937dc33e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a937dc33e10>]}
+
+
+============================== 20:40:12.817711 | 6d283710-265b-4b0c-83ab-ae00ab634446 ==============================
+[0m20:40:12.817711 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:40:12.818653 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/medical_data_project/logs', 'profiles_dir': '/home/hunegna/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:12.821495 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:40:12.822753 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06937489, "process_in_blocks": "0", "process_kernel_time": 0.202477, "process_mem_max_rss": "90432", "process_out_blocks": "8", "process_user_time": 1.622814}
+[0m20:40:12.823548 [debug] [MainThread]: Command `dbt run` failed at 20:40:12.823314 after 0.07 seconds
+[0m20:40:12.824534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a937da97010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9381560c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a93816bd150>]}
+[0m20:40:12.825479 [debug] [MainThread]: Flushing usage events
+[0m20:40:13.775411 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:55.087551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d971f3bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d971f9190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d971f96d0>]}
+
+
+============================== 20:40:55.090963 | 22b72870-a9d7-4907-9c7e-28a5ff04b2a9 ==============================
+[0m20:40:55.090963 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:40:55.091815 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hunegna/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/hunegna/10x/10x_projects/telegram-medical-business-scraper/medical_data_project/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:55.094605 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'medical_data_project'
+[0m20:40:55.095774 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.069849625, "process_in_blocks": "0", "process_kernel_time": 0.218627, "process_mem_max_rss": "90592", "process_out_blocks": "8", "process_user_time": 1.578312}
+[0m20:40:55.096438 [debug] [MainThread]: Command `dbt run` failed at 20:40:55.096256 after 0.07 seconds
+[0m20:40:55.097311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d9ac64e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d971f8250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x776d971cea50>]}
+[0m20:40:55.098481 [debug] [MainThread]: Flushing usage events
+[0m20:40:56.071758 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: telegram
+    description: "Raw Telegram data scraped from channels"
+    tables:
+      - name: raw_messages
+        description: "Raw messages scraped from Telegram"
